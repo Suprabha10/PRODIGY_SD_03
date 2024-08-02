@@ -1,2 +1,8 @@
 # PRODIGY_SD_03
 This repository contains the code and documentation for Task 3 of my Software Development Internship at Prodigy InfoTech.
+# SUMMARY ABOUT THE TASK
+The task involves developing a Contact Management System using Python's Tkinter library to create an interactive graphical user interface (GUI). The system is designed to store contacts in a JSON file named `contacts.json`, which ensures that the data persists across sessions. It includes several key functions: `load_contacts()` to load existing contacts from the file, `save_contacts(contacts)` to save updated contact information, `add_contact()` to add new contacts while ensuring all fields (name, phone, email) are filled, `edit_contact()` to load a selected contact’s details into input fields for editing, and `delete_contact()` to remove the selected contact from the list.
+
+The user interface is organized into different frames. The top frame contains labels and entry fields for the contact's name, phone number, and email address. Below this, a button frame holds buttons for adding, editing, and deleting contacts, each connected to their respective functions. The bottom part of the interface contains a listbox, which displays the names of all saved contacts, along with a vertical scrollbar for navigation. The listbox is dynamically updated whenever a contact is added, edited, or deleted.
+
+The main window of the application is fixed at a specific size (400x500 pixels) and is not resizable, ensuring a consistent user experience. Overall, this system provides users with an intuitive way to manage contact information, with real-time updates to the contact list and persistent storage to maintain data integrity across multiple uses.
